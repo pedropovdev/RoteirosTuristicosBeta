@@ -1,0 +1,49 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Cor de fundo suave */
+  color: #333; /* Cor do texto */
+}
+
+header {
+  background-color: #444;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+main {
+  padding: 20px;
+}
+
+#map {
+  height: 500px;  /* Definindo a altura do mapa */
+  width: 60%;    /* O mapa ocupa toda a largura */
+  border: 2px solid #ccc; /* Adicionando uma borda ao mapa */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Adicionando uma sombra ao mapa */
+  margin: 20px auto; /* Centralizando o mapa horizontalmente */
+  max-width: 1200px; /* Definindo uma largura máxima para o mapa */
+  border-radius: 8px; /* Adicionando cantos arredondados ao mapa */
+}
+
+footer {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  margin: 0;
+}
